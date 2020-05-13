@@ -1,0 +1,135 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+
+/*********************************************************************************************************************************/
+#first {
+    height:600px;
+    background-image:url(https://user-images.githubusercontent.com/59815000/81492658-993f3580-92d4-11ea-9dc6-1d4893dccb16.jpg);
+    color:white;
+    font-size:1.8em;
+}
+#first>h1 {
+    padding:280px 0 0 0;
+    text-align:center;
+    margin:0px;
+}
+
+
+/*********************************************************************************************************************************/
+#second {
+    height:447px;
+}
+#second>img {
+    margin:70px 200px 70px 150px;
+    width:230px;
+    float:left;
+    border-radius:2%;
+    border:2px solid #e8e8e8;
+}
+#second>p {
+    font-size:15px;
+    padding:100px;
+}
+
+
+/*********************************************************************************************************************************/
+#third {
+    height:580px;
+    background-color:#FFFEE6;
+}
+h1 {
+    text-align:center;
+    padding:22px 0 0 0;
+    margin:0;
+}
+#main_project {
+    padding:40px 50px 50px 150px;
+}
+#project {
+    width:620px;
+    margin:0 130px 0 0;
+    float:left;
+}
+#third_content {
+    padding:25px 0 0 0;
+}
+#third p {
+    padding:0 55px 0 0;
+}
+#third #p1 {
+    font-size:1.8em;
+    font-weight:bold;
+    margin:10px;
+}
+#third #p2, #p4 {
+    font-size:1.5em;
+    font-weight:bold;
+}
+#third #p3 {
+    font-size:15px;
+    margin:10px;
+}
+#third li {
+    font-weight:normal;
+    margin:0 0 0 750px;
+}
+#github {
+    text-align:right;
+}
+#githubImg {
+    width:50px;
+}
+
+
+/*********************************************************************************************************************************/
+#fourth {
+    height:720px;
+    background-color:#FAFAFA;
+}
+#detail_project {
+    width:1700px;
+    padding:40px 50px 50px 150px;
+}
+#fourth #one {
+    width:350px;
+    margin:0 120px 0 50px;;
+    float:left;
+}
+#fourth #two {
+    width:500px;
+    margin:100px 120px 0 0;
+}
+#fourth #three {
+    width:500px;
+    margin:100px 0 0 0;
+}
+#fourth p {
+    margin:60px 0 0 0;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+/*********************************************************************************************************************************/
+#footer {
+    height:350px;
+    text-align:center;
+}
+#footer>h1 {
+    padding:100px 0 30px 0;
+    margin:0px;
+}
+#footer>a {
+    margin:30px;
+    font-size:3em;
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+}
+#footer>a:hover {
+    font-size:3.3em;
+    color:gold;
+}
