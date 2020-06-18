@@ -7,16 +7,36 @@
 <body>
     <div id="detail">
         <h1>Project Detail</h1>
-
-       <div id="first">
+        
+        <div id="DB">
+           <img id="erd" src="https://user-images.githubusercontent.com/59815000/84782537-1a4fc200-b023-11ea-850e-fb05178ab640.png">
+           <div>
+              <h2>[ DB설계 ]</h2>
+              <p>
+                   <br><br>
+                   ● 사용기술 : MySQL<br><br>
+                   ● 경험<br>
+                    &nbsp; - trigger? DB에 관심이 많아 자원하여, 설계를 하게 되었습니다. 제일 고민했던 기능이 쪽지 수신/발신 부분이었는데, 쪽지를 발송하는 동시에 수신자에게 쪽지가 누적될 수 있도록 하는 방법을 찾지 못하고 헤매다가 트리거를 알게 되었습니다. 트리거에 대해 이론으로만 배웠을 때에는 정말 재미었다, 어렵다고만 생각했는데 막상 프로젝트에 대입해보니 정말 편리하고 재미있는 기능이었습니다.<br><br>
+                    
+                   ● 느낀점<br>
+                    &nbsp; DB에 대해서는 일찌기 관심은 많았지만, 간단한 쿼리문만을 활용했는데 조금더 새로운 기능에 대해 공부하고 직접 활용하면서 개념이나 활용 방법에 대해 배울 수 있는 기회가 되어 재밌었습니다.<br>
+                    &nbsp; 트리거는 속도나 성능상의 차이가 있을 수 있기 때문에, 꼭 필요한 경우가 아니라면 제약조건을 사용하는 것이 좋다는 내용의 블로그를 최근에 본 적이 있습니다. 어떤 경우에 어떻게 활용하는 지에 대해서 뿐만 아니라, 이처럼 조금 더 디테일한 부분까지 공부하여 DB에 대한 지식의 폭을 조금 더 넓고 깊게 쌓아 DB분야의 전문가도 되고 싶습니다.
+               </p>
+           </div>
+           <div id="code0">
+              <button onClick="codeDb()">코드보기 → </button>
+           </div>
+       </div>
+         
+          <div id="first">
            <img id="one" src="https://user-images.githubusercontent.com/59815000/84735140-ae973600-afdd-11ea-87e4-29f5353a9394.PNG">
            <div>
               <h2>[ LIST, 정렬, 검색, 페이징 ]</h2>
               <p>
-                   <br><br>
+                  <br><br>
                    ● 사용기술 : Java, JavaScript, JQuery, Ajax, Bootstrap<br><br>
                    ● 경험<br>
-                    &nbsp;- 페이지 개수가 많다 : 실제 출력되어야 하는 페이지 수보다 많은 페이지가 출력되는 문제가 있었습니다. <br>
+                    &nbsp;- 페이지 개수가 많다 : 실제 출력되어야 하는 페이지 수보다 많은 페이지가 출력되는 문제가 있었습니다. 단순한 문제였으나 작동원리를 완벽하게 이해하지 못한 채 기능만 구현하여, 문제의 원인을 찾는데 반나절이 꼬박 걸렸습니다. 어떤 기능이던 이해하지 못한 코드는 내 것이 아니라는 것을 배우게 된 케이스였습니다.<br>
                     &nbsp;- 동적SQL이 뭐지? : 검색조건을 구현하는 방법에 대한 고민이 많았습니다. 구글링을 통해 동적SQL에 대해 알게 되었고 다시 SQL에 대해 공부를 한 후, trim을 이용하니 간단하게 구현되었습니다.<br><br>
                     ● 느낀점<br>
                     &nbsp;프로젝트를 하며, 처음 기능을 구현했던 시작했던 페이지였습니다. 그저 빨리 끝내고 자랑해야지 하는 마음에 제대로 된 공부없이 덤벼들었습니다. 그 결과 불필요하게 시간을 낭비하게 되었고, 뒤늦게 공부한 후 작업을 진행했기 때문에 예상보다 완성 시기가 늦어졌습니다.<br>
@@ -24,9 +44,7 @@
                </p>
            </div>
            <div id="code1">
-               <a href="https://github.com/uniqueHRH/finalProject">
-                   코드보기 <img id="githubImg" src="https://user-images.githubusercontent.com/59815000/81542398-8cdbdb00-93af-11ea-88bd-1ef6e15cc066.png">
-               </a>
+              <button onClick="codeList()">코드보기 → </button>
            </div>
        </div>
        
@@ -35,7 +53,7 @@
            <div>
               <h2>[ 글쓰기, 파일 업로드 ]</h2>
               <p>
-                   <br><br>
+                   <br><br><br>
                    ● 사용기술 : Java, JavaScript, JQuery, Ajax, Bootstrap,<br>
                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fileupload<br><br>
                    ● 경험<br>
@@ -46,9 +64,7 @@
                </p>
            </div>
            <div id="code2">
-               <a href="https://github.com/uniqueHRH/finalProject">
-                   코드보기 <img id="githubImg" src="https://user-images.githubusercontent.com/59815000/81542398-8cdbdb00-93af-11ea-88bd-1ef6e15cc066.png">
-               </a>
+              <button onClick="codeUpload()">코드보기 → </button>
            </div>
        </div>
        <div id="third">
@@ -56,42 +72,60 @@
            <div>
               <h2>[ 상세페이지, 수정/삭제, 댓글 ]</h2>
               <p>
-                   <br><br>
+                   <br><br><br>
                    ● 사용기술 : Java, JavaScript, JQuery, Ajax, Bootstrap<br><br>
                    ● 경험<br>
                     &nbsp;- Ajax 비동기통신! : 강의로 얕게 배운 Ajax 지식으로 값은 주고받았지만, 데이터를 실시간으로 받아오는 등 깊이 있는 지식은 부족했습니다. 다른 기능을 구현하는 데에 쫓겨 비동기가 아닌 동기로 화면을 처리하게 되었고, 이 부분에 아쉬움이 남았습니다. 다시금 프로젝트를 진행하게 된다면 비동기를 제대로 활용하여 화면을 처리하도록 구현해보고 싶습니다.<br><br>
                     ● 느낀점<br>
-                    &nbsp;팀원들에게 나서서 가르쳐주고, 사용하라고 추천하기도 Ajax를 재밌는 기능, 편리한 기능이라고만 생각했습니다. 하지만 댓글 기능을 구현하면서 Ajax를 제대로 사용하는 법을 모르고 있었다는 것을 깨닫게 되었습니다.<br>
+                    &nbsp;팀원들에게 나서서 가르쳐주고 사용하라고 추천하기도 하며 Ajax를 재밌는 기능, 편리한 기능이라고만 생각했습니다. 하지만 댓글 기능을 구현하면서 Ajax를 제대로 사용하는 법을 모르고 있었다는 것을 깨닫게 되었습니다.<br>
                     &nbsp;기능이 하나하나 구현되는 것이 신기하기도 하고, 정말 즐겁습니다. 또한 Ajax를 빗대어 말했지만, 누군가 시켜서가 아니라 알고 싶고 '잘'해서 기능으로 구현해보고 싶습니다. '예비 개발자'로서 공부하고 배우는 과정이 즐겁다는 것을 느끼고, 내가 갈 길이라는 확신을 더 다지게 된 가장 중요한 기간이었습니다.
                </p>
            </div>
            <div id="code3">
-               <a href="https://github.com/uniqueHRH/finalProject">
-                   코드보기 <img id="githubImg" src="https://user-images.githubusercontent.com/59815000/81542398-8cdbdb00-93af-11ea-88bd-1ef6e15cc066.png">
-               </a>
+              <button onClick="codeDetail()">코드보기 → </button>
            </div>
        </div>
        <div id="fourth">
            <img id="four" src="https://user-images.githubusercontent.com/59815000/84735148-b5be4400-afdd-11ea-85b8-94ac3c92addd.PNG">
            <div>
               <h2>[ 실시간 쪽지 주고받기 ]</h2>
+              <br>
               <p>
                    ● 사용기술 : Java, JavaScript, JQuery, Ajax, Bootstrap,<br>
                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; webSocket<br><br>
                    ● 경험<br>
-                    &nbsp;- webSocket이란? webSoekct에 대한 이해가 부족했습니다. 페이지가 전환되면 연결이 끊어진다는 것조차 알지 못했습니다. webSocket은 시작 전 일주일간 공부부터 시작하였고, 그 끝에 구현할 수 있게 되었습니다.<br><br>
+                    &nbsp;- webSocket이란? webSoekct에 대한 이해가 부족했습니다. 페이지가 전환되면 연결이 끊어진다는 것조차 알지 못했습니다. 기능구현을 시작하기 전 webSocket미 무엇인가부터 일주일간 공부하기 시작하였고, 그 끝에 기능을 구현할 수 있게 되었습니다.<br><br>
                     ● 느낀점<br>
-                    &nbsp;교육기간 동안 통신이 제일 어렵다고 생각했고, 생각 탓인지 실제로 제일 어려웠던 것 같습니다. 개발자로서 앞으로 나아가기 위한 사전 연습이라는 생각으로 먼저 webSocket을 자원했으며, 팀원들에게 폐를 끼치지 않기 위해서라도 기능을 구현해야만 했으며 구글링과 관련 서적을 번갈아 찾아가며 공부하고 결국은 성공해냈습니다.<br>
-                    &nbsp;이 경험으로 어려워서 못하는 것이 아니라 안했기 때문에 못하는 것이라는 것을 배우게 되었습니다. 그리고 아직 Jsp에 soekct 객체를 생성한 후 페이지마다 include 하는 식으로 구현한 것이 정확한 방법인지 알 수가 없어, 아직 더 깊이있는 공부가 필요할 것 같습니다.<br>
+                    &nbsp;교육기간 동안 통신이 제일 어렵다고 생각했고, 생각 탓인지 실제로 제일 어려웠던 것 같습니다. 개발자로서 앞으로 더 나아가기 위한 사전 연습이라는 생각으로 먼저 webSocket을 자원했으며, 팀원들에게 폐를 끼치지 않기 위해서라도 기능을 구현해야만 했기 때문에 구글링과 관련 서적을 번갈아 찾아가며 공부하고 결국은 기능구현에 성공했습니다.<br>
+                    &nbsp;이 경험으로 어려워서 못하는 것이 아니라 안했기 때문에 못하는 것이라는 것을 배우게 되었습니다. 그리고 아직 Jsp에 socket 객체를 생성한 후 페이지마다 include 하는 식으로 구현한 것이 정확한 방법인지 알 수가 없어, 아직 더 깊이있는 공부가 필요할 것 같습니다.<br>
                     &nbsp;마지막으로 나도 하면 된다는 것을 느꼈고 자신감을 얻게 되었으며, 스스로를 자랑스럽게 생각할 수 있는 기능을 구현하게 되어 만족스러웠습니다.
                </p>
            </div>
            <div id="code4">
-               <a href="https://github.com/uniqueHRH/finalProject">
-                   코드보기 <img id="githubImg" src="https://user-images.githubusercontent.com/59815000/81542398-8cdbdb00-93af-11ea-88bd-1ef6e15cc066.png">
-               </a>
+              <button onClick="codeSocket()">코드보기 → </button>
            </div>
        </div>
     </div>
+    <script type="text/javascript">
+        function codeDb() {
+            window.location.href="code.html";
+        }
+        
+        function codeList() {
+            window.location.href="code.html#list";
+        }
+        
+        function codeUpload() {
+            window.location.href="code.html#upload";
+        }
+        
+        function codeDetail() {
+            window.location.href="code.html#detail";
+        }
+        
+        function codeSocket() {
+            window.location.href="code.html#socket";
+        }
+    </script>
 </body>
 </html>

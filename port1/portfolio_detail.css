@@ -11,7 +11,7 @@ h1 {
 }
 
 /* 설명 */
-#first, #second, #third, #fourth {
+#DB, #first, #second, #third, #fourth {
     background: linear-gradient(to right, #FAF7C1 580px,white 20px);
     margin:0 auto;
     width:1300px;
@@ -23,29 +23,39 @@ h2 {
     font-size:2em;
 }
 p {
-    font-size:1.2em;
+    font-size:1.1em;
     padding:0 30px 0 0;
     margin:0;
 }
 
 /* 이미지 */
-#one, #two, #three, #four {
-    margin:45px 80px 48PX 35px;
-    width:510px;
+#erd, #one, #two, #three, #four {
+    margin:45px 80px 48PX 40px;
+    width:500px;
     height:630px;
     float:left;
 }
 
 /* Github*/
+#code0 {
+    text-align:right;
+    margin:70px 40px 0 0;
+}
 #code1 {
     text-align:right;
-    margin:45px 40px 0 0;
+    margin:50px 40px 0 0;
 }
-#code2,#code3, #code4 {
+#code2, #code3 {
     text-align:right;
-    margin:20px 40px 0 0;
+    margin:70px 40px 0 0;
     padding:0;
 }
+#code4 {
+    text-align:right;
+    margin:30px 40px 0 0;
+    padding:0;
+}
+
 a {
     font-size:20px;
     font-weight:bold;
@@ -56,4 +66,15 @@ a {
 }
 #githubImg {
     width:50px;
+}
+
+/********************************************/
+button {
+    background-color:white;
+    border:1px solid #C5C4C4;
+    border-radius:3px;
+    height:40px;
+    width:120px;
+    font-size:16px;
+    font-weight:bold;
 }

@@ -153,7 +153,16 @@ h1 {
     height:600px;
     padding-top:20px;
 }
-
+button {
+    background-color:white;
+    border:1px solid #C5C4C4;
+    border-radius:3px;
+    height:40px;
+    width:120px;
+    font-size:16px;
+    font-weight:bold;
+    margin:10px;
+}
 
 /*********************************************************************************************************************************/
 #footer {
