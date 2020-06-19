@@ -9,7 +9,7 @@ body {
     margin:0 auto;
 }
 p {
-    font-size:1.2em;
+    font-size:1.1em;
     margin:0;
 }
 #p1 {
@@ -25,7 +25,14 @@ p {
 .p3 {
     font-weight:bold;
 }
-
+.point {
+    font-weight:bold;
+    font-size:1.4em;
+}
+.point2 {
+    font-weight:bold;
+    font-size:1.3em;
+}
 /*********************************************************************************************************************************/
 #first {
     height:600px;
@@ -40,22 +47,23 @@ p {
     text-align:center;
     margin:0px;
 }
-
-
 /*********************************************************************************************************************************/
 #second {
     height:555px;
     background-color:#FFFEE6;
 }
 #second>img {
-    margin:50px 180px 40px 200px;
+    margin:50px 140px 40px 140px;
     width:350px;
     float:left;
     border-radius:2%;
     border:2px solid #e8e8e8;
 }
 #second p {
-    padding:100px;
+    display:inline;
+}
+#intro {
+    padding:50px 100px 100px 100px;
 }
 
 
@@ -132,7 +140,7 @@ h1 {
 
 /*********************************************************************************************************************************/
 #fourth {
-    height:735px;
+    height:670px;
     background-color:#FAFAFA;
 }
 #detail_project {
